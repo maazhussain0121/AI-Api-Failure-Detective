@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    color: #1f2937;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+header {
+    margin-bottom: 35px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #6b7280;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.incident {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+}
+
+.incident-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status {
+    font-weight: bold;
+}
+
+.status-500,
+.status-504 {
+    color: #dc2626;
+}
+
+.status-401 {
+    color: #d97706;
+}
+
+button {
+    background: #111827;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+}
+
+.root-cause {
+    padding: 15px;
+    background: #fef3c7;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+.evidence li,
+.recommendations li,
+.failure-chain li {
+    margin-bottom: 8px;
+}
+
+.logs {
+    background: #111827;
+    color: #e5e7eb;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: monospace;
+    overflow-x: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.loading {
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+}
